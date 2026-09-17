@@ -15,11 +15,13 @@ Before automation, fee records were tracked manually across scattered spreadshee
 -No easy way to spot underperforming batches or partial-payment accounts
 
 🛠 Tools Used
+
 SQL – Data cleaning and preparation
 Excel – Raw data source and pre-processing
 Power BI – Dashboard modeling, DAX measures, and visualization
 
 📂 Dataset
+
 Student-level fee records across batches 8th–12th, academic years 2021–2023
 Columns: Student Name, Batch, Total Fees, Fees Received, Payment Mode, Payment Status, Payment Date
 Source: [Add your dataset link here]
@@ -31,6 +33,7 @@ The report is a single, clean summary page — KPIs (collection rate, total fees
 Rather than a second visible page, month-by-month payment status detail is delivered through a Power BI report-page tooltip — a dedicated page sized to tooltip dimensions and linked to the student fee table. Hovering over a student's row surfaces their paid/pending payment history by month, without navigating away from the main dashboard. This keeps the summary view clean for stakeholders while still surfacing transaction-level detail on demand.
 
 💡 Key Insights
+
 💰 87.03% collection rate — ₹66.7L received against total billed fees, leaving ₹8.3L in pending dues
 ⚖️ Balanced batch distribution — fees received are almost evenly split across batches 8th–12th (~19.8%–20.1% each), indicating stable collection across grade levels
 🧾 Partial-payment segment — a distinct group of students have only partially cleared their fees, a concrete segment for targeted follow-up
@@ -38,17 +41,18 @@ Rather than a second visible page, month-by-month payment status detail is deliv
 📅 Payment timing lag — month-wise tracking surfaces where payment dates trail billing months, useful for spotting seasonal collection delays
 
 #📈 Results & Business Impact
+
 -Reduced manual fee-tracking and reporting effort by ~80%
 -Converted a static, end-of-year reconciliation process into a real-time, filterable dashboard (by academic year, batch, and payment mode)
 -Made ₹8.3L in pending dues immediately visible, enabling proactive follow-up instead of reactive chasing
 -Established a single source of truth for collection rate and revenue across 3 academic years
 
 🚀 How to Use
+
 Download the .pbix file
 Open in Power BI Desktop
 If prompted to refresh data, point it to your local Excel/CSV file
 Use the slicers (Academic Year, Batch, Mode of Payment) to explore
 
 👩‍💻 Author
-
 Snehal Kokate Aspiring Data Analyst SQL • Excel • Power BI
