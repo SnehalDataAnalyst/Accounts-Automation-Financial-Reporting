@@ -24,17 +24,19 @@ Before automation, fee records were tracked manually across scattered spreadshee
 
 - Student-level fee records across batches 8th–12th, academic years 2021–2023
 - Columns: Student Name, Batch, Total Fees, Fees Received, Payment Mode, Payment Status, Payment Date
-- Source: [Add your dataset link here]
+- Source: https://drive.google.com/drive/folders/1hgN767r0kq2BDi3Uu5PTesF5GINuuHzR?usp=drive_link.
 
 ## 📊 Dashboard Preview
 
-![Accounts Summary Page 1](Accounts%20Summary_page-0001.jpg)
+![Accounts Summary Page 1]<img width="2075" height="1200" alt="Malani accounts_page-0001" src="https://github.com/user-attachments/assets/82bd6a77-c2da-46a8-8f5d-1ed0ad004120" />
+
 
 The report is a single, clean summary page — KPIs (collection rate, total fees received, pending fees, revenue, average revenue per student), a batch-wise revenue breakdown, and a student-level fee table are all visible at a glance.
 
 Rather than a second visible page, month-by-month payment status detail is delivered through a **Power BI report-page tooltip** — a dedicated page sized to tooltip dimensions and linked to the student fee table. Hovering over a student's row surfaces their paid/pending payment history by month, without navigating away from the main dashboard. This keeps the summary view clean for stakeholders while still surfacing transaction-level detail on demand.
 
-![Payment Status Tooltip](Accounts%20Summary_page-0002.jpg)
+![Payment Status Tooltip]<img width="575" height="450" alt="Malani accounts_page-0002" src="https://github.com/user-attachments/assets/a30a46f4-3fdf-4515-95c1-8417db2adf1d" />
+
 
 ## 💡 Key Insights
 
