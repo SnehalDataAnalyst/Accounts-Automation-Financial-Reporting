@@ -10,9 +10,13 @@ This project automates fee-collection tracking for batches 8th–12th across aca
 
 Before automation, fee records were tracked manually across scattered spreadsheets per batch and academic year:
 -No real-time visibility into pending dues or overall collection rate
+
 -Manual reconciliation of cash vs. UPI payments was slow and error-prone
+
 -Year-end reporting required manually compiling data from multiple disconnected sheets
+
 -No easy way to spot underperforming batches or partial-payment accounts
+
 
 🛠 Tools Used
 
